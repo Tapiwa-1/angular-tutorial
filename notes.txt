@@ -1,0 +1,24 @@
+Lesson 1: Hello world
+
+1.1 Review the files in the project
+
+.angular - files required to build the app
+.e2e - files used to test the app
+.node-modules - node packages
+.angular.json - building tools
+.tsconfig - app consifuration
+src / - in the file explorer, find the Angular app files
+++++ /app - you will find the Angular app's components file
+++++ ++++ app.component.ts - the source file that describes the app-root component. 
+++++++++++++++++++++++++++ - top level Angular component.
+++++++++++++++++++++++++++ - building block of Angular application
+++++++++++++++++++++++++++ -The component description includes the components code, HTML template and styles, which can be described in deperate files
+++++ ++++ app.component.css - is the style sheet for this component
+++++ ++++ New component also added in this directory
+++++ /assets - contains images to be used by the app
+++++ index.html - app's top level html template
+++++ style.css - app's top level style sheet
+++++ main.ts -where the app start running
+++++ fav.ico - app icon
+
+1.2 Create Hello world
