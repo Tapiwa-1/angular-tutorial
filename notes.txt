@@ -22,3 +22,27 @@ src / - in the file explorer, find the Angular app files
 ++++ fav.ico - app icon
 
 1.2 Create Hello world
+
+- replace title in index.html with homes
+- add template: `<h1>Hello world!</h1>`, in the @Component({})
+
+Lesson 2: Create Home component
+
+2.1 Conceptual preview of Angular components
+Components contain the code, HTML layout and CSS styles information that provide the function and appearance of an element in the app.
+An app's functions and appearance can be divided and partitioned into Components
+
+In Angular, components have metadata that define its properties. When you create your HomeComponent, you use these properties:
+selector: describe how Angular refers to the component in template
+standalone: describe whether the component requires a NgModule
+imports: to describe the component's dependencies
+template: to describe the component's HTML markup layout
+styleUrls: to list the URLs of the CSS files that the component uses in an arrary
+
+To create home Component run: ng generate component home --standalone --inline-template --skip-tests
+
+2.1 - Add the new component to your app's layout
+
+open app.component.ts
+import HomeComponent: import { HomeComponent } from './home/home.component';
+In app.component.ts, in @Component, update the imports array property and add HomeComponent : imports: [HomeComponent,],
