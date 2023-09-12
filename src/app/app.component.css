@@ -10,5 +10,12 @@
   .content {
     padding: var(--content-padding);
   }
+  .d-flex {
+    display: flex;
+    
+  }
+  .align-items-center {
+    align-items: center;
+  }
   
   

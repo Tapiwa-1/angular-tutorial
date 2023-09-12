@@ -63,4 +63,16 @@ Step 1 - Import the Input decorator
 When adding a property binding to a component tag, we use the [attribute] = "value" syntax to notify Angular that the assigned value should be treated as a property from the component class and not a string value.
 
 Lesson 5: Add an interpolation to a component’s template
+In this step you will display values (properties and Input values) in a template using interpolation.
+Using the {{ expression }} in Angular templates, you can render values from properties, Inputs and valid JavaScript expressions.
 
+Lesson 6: Use *ngFor to list objects in component
+This tutorial lesson demonstrates how to use ngFor directive in Angular templates in order to display dynamically repeated data in a template.
+
+Lesson 7: Angular services
+
+Angular services - provide a way for you to separate Angular app data and functions that can be used by multiple components in your app
+
+To create services: Create a new service for your app
+
+7.1 Add static data to the new service
