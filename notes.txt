@@ -46,3 +46,21 @@ To create home Component run: ng generate component home --standalone --inline-t
 open app.component.ts
 import HomeComponent: import { HomeComponent } from './home/home.component';
 In app.component.ts, in @Component, update the imports array property and add HomeComponent : imports: [HomeComponent,],
+
+Lesson 3: Creating an interface
+
+Conceptual preview of interface
+Are custom data types for your application
+
+To create interface: ng generate interface housinglocation
+
+Lesson 4: Add an input parameter to the component
+This tutorial lesson demonstrates how to create a component @Input() and use it to pass data to a component for customization.
+Inputs allow components to share data. The direction of the data sharing is from parent component to child component.
+In this lesson, you'll define @Input() properties in the HousingLocationComponent component which will enable you to customize the data displayed in the component.
+
+Step 1 - Import the Input decorator
+When adding a property binding to a component tag, we use the [attribute] = "value" syntax to notify Angular that the assigned value should be treated as a property from the component class and not a string value.
+
+Lesson 5: Add an interpolation to a component’s template
+

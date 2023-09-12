@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+// import { HomeComponent } from './home/home.component';
 
 @Component({
   selector: 'app-root',
@@ -7,10 +7,9 @@ import { Component } from '@angular/core';
   template: `
   <main>
     <header class="brand-name">
-      <img class="brand-logo" src="/assets/logo.png" width="40" alt="logo" aria-hidden="true">
+      <img class="brand-logo" src="/assets/logo.png" width="50" alt="logo" aria-hidden="true">
     </header>
     <section class="content">
-  
       <app-home></app-home>
     </section>
   </main>

@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 
+
 @NgModule({
   declarations: [
     AppComponent
@@ -11,6 +12,7 @@ import { HomeComponent } from './home/home.component';
   imports: [
     BrowserModule,
     HomeComponent
+
   ],
   providers: [],
   bootstrap: [AppComponent]
