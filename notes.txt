@@ -75,4 +75,6 @@ Angular services - provide a way for you to separate Angular app data and functi
 
 To create services: Create a new service for your app
 
-7.1 Add static data to the new service
+Lesson 8: Adding a form to your Angular app
+The data that the form collects is sent only to the app's service, which writes it to the browser's console.
+The app will enable users to search through the data provided by your app and display only the results that match the entered term.
